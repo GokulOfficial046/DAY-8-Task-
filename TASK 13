@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Example</title>
+
+  <style>
+   
+
+    .box {
+      width: 80%;
+      max-width: 600px;
+      height: 150px;
+      background-color:brown;
+      margin: 20px auto;
+    }
+
+    p {
+
+      font-size: 1.5rem;
+    }
+
+
+    
+    h1 {
+
+      font-size: 5vw;
+    }
+
+
+   
+
+    body {
+
+      background-color: white;
+
+    }
+
+
+    @media (max-width: 768px)
+     {
+      body {
+       
+        background-color:aqua
+
+      }
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <h1>FUTURE BASED</h1>
+
+  <div class="box"></div>
+
+  <p>
+    This pages uses 1.5rem font size.
+  </p>
+
+</body>
+</html>
